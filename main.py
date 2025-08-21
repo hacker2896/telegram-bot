@@ -141,7 +141,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
 if __name__ == '__main__':
     create_users_table()
 
-    app = ApplicationBuilder().token("8308883171:AAF5-XE-lYHT17IOFRH0rADSc6afsjNR_78").build()
+    app = ApplicationBuilder().token("8350831088:AAGAId3v_lS8FQo7YBSCVKn1UoW2DypB1So").build()
 
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler("start", start)],
@@ -175,3 +175,4 @@ if __name__ == '__main__':
     app.add_handler(edit_handler)
 
     app.run_polling()
+
